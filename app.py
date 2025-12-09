@@ -4,7 +4,7 @@ import plotly.express as px
 
 df = pd.read_csv("qatarcars.csv")
 
-st.title("Qatar Cars -- TidyTuesday 12/9")
+st.title("International Cars -- TidyTuesday 12/9")
 
 x = st.sidebar.selectbox(
     "Select an X variable:",
