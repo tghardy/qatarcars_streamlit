@@ -1,5 +1,5 @@
 [project]
-name = "12-9"
+name = "tt12-9"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,3 +9,8 @@ dependencies = [
     "plotly>=6.5.0",
     "streamlit>=1.52.1",
 ]
+
+[tool.poetry]
+name = "tt12-9"
+version = "0.1.0"
+package-mode = false
