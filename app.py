@@ -8,12 +8,14 @@ st.title("Qatar Cars -- TidyTuesday 12/9")
 
 x = st.sidebar.selectbox(
     "Select an X variable:",
-    df.columns
+    df.columns,
+    index="performance"
 )
 
 y = st.sidebar.selectbox(
     "Select a Y variable:",
-    df.columns
+    df.columns,
+    index="horsepower"
 )
 
 fig = px.scatter(df, x, y, color="enginetype", hover_data = ["make", "model", "economy", "price", "mass", "type"])
